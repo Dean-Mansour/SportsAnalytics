@@ -1,0 +1,45 @@
+============================================================
+  NFL Quarterback Rating System
+============================================================
+
+Which NFL season year? (e.g. 2024): 2024
+Minimum pass attempts (default 200): 200
+Show top N QBs? (default: all): 10
+
+Fetching 2024 passing stats...
+  Data source: nflverse (open-source NFL data)
+Found 39 qualifying QBs (>= 200 attempts)
+
+--- 2024 QB Rankings (Top 10) ---
+Rank  Player                  Team  Score   Tier
+----  --------------------    ----  -----   ---------------
+1     Lamar Jackson           BAL   92.6    Elite
+2     Jared Goff              DET   77.2    Great
+3     Joe Burrow              CIN   74.8    Great
+4     Josh Allen              BUF   73.7    Great
+5     Baker Mayfield          TB    72.4    Great
+6     Derek Carr              NO    69.6    Great
+7     Tua Tagovailoa          MIA   66.0    Great
+8     Brock Purdy             SF    65.8    Great
+9     Jalen Hurts             PHI   64.2    Average
+10    Sam Darnold             MIN   63.8    Average
+
+--- Tier Distribution ---
+Elite:            1 QBs
+Great:            7 QBs
+Average:          18 QBs
+Below Average:    10 QBs
+Poor:             3 QBs
+
+--- Category Leaders ---
+Completion %:         Tua Tagovailoa      (72.9)
+Yards/Attempt:        Lamar Jackson       (8.8)
+TD %:                 Lamar Jackson       (8.7)
+INT % (lowest):       Lamar Jackson       (1.0)
+Adj Net Yds/Att:      Lamar Jackson       (9.35)
+Yards/Game:           Joe Burrow          (289.3)
+
+============================================================
+  Rating uses: Y/A, TD%, INT%, ANY/A, Cmp%, Win%, Sk%, Y/G
+  Weighted composite score normalized across all qualifiers
+============================================================
